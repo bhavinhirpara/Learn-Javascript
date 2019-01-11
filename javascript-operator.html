@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+	
+<p id="demo"></p>
+<input id="age" type="text" placeholder="age" >
+<button onclick="vote();">try it!</button>
+
+<script type="text/javascript">
+	
+	function vote() {
+		var age1;
+		age1= document.getElementById('age').value;
+		 //window.alert(age1);
+		if (age1 >= 18) {
+			window.alert('vote');
+		}
+		else if (age1 == 0){
+			window.alert('put the value');
+		}
+		else {
+			window.alert('not vote');
+		}
+	}
+
+</script>
+</body>
+</html> 
